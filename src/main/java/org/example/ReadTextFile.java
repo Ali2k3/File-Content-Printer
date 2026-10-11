@@ -10,10 +10,14 @@ public class ReadTextFile {
 
         try {
             for (String line : Files.readAllLines(filePath)) {
-                System.out.println(line);
+                System.out.println(line.toUpperCase());
             }
         } catch (IOException e) {
             System.out.println("Could not read the file: " + e.getMessage());
+        }
+        finally {
+            System.out.println("My task was to rebase a commit and I did it!!!");
+            System.out.println("I have to commit Gullu");
         }
     }
 }
