@@ -1,0 +1,5 @@
+Hello! This is a sample text file.
+
+Java can read this file line by line.
+This is the third line.
+You can change this text and run the Java program again.
