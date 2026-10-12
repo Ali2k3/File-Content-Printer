@@ -18,6 +18,8 @@ public class ReadTextFile {
         finally {
             System.out.println("My task was to rebase a commit and I did it!!!");
             System.out.println("I have to commit Gullu");
+            System.out.println("Bye Bye !!");
+            System.out.println("Tata!!");
         }
     }
 }
