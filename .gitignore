@@ -37,3 +37,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore IntelliJ IDEA project directory
+.idea/
+
+# Ignore backup files
+.idea-backup/
+misc-current-backup.xml
+misc.xml-temp
+
+# Ignore secrets
+secrets.txt
